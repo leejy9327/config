@@ -4,7 +4,7 @@ session_set_cookie_params(0, "/"); // 세션쿠키가 적용되는 위치 (특�
 ini_set("session.cookie_domain", "세션이활성화될도메인"); 
 ini_set("session.gc_maxlifetime", ""); // 사용자가 아무짓안할경우 마감한다 세션 만료시간 설정
 // session.cache_expire 세션캐쉬 삭제되는 시간  분단위
-## 웹브라우저를 끌때까지 생존한다 ##
+웹브라우저를 끌때까지 생존한다 
 //session.cookie_lifetime = 0
 session_start();
 //session_register($_SESSION['ss_num']);
